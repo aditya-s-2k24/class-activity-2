@@ -13,5 +13,6 @@ pairs = find_cube_pairs(1729) # unecessary comma removed
 print("Valid cube pairs for 1729:") # printf is the wrong fn it should be print comma removed 
                                     # string should be changed number should be 1729 
 for a, b in pairs: # missing colon added pair is undefined changed to pairs 
-    print(f" → {a}³ + {b}³ = {a**3} + {b**3} = 1729") # again it should be print and the number is 1729 period at the end of the line removed 
+    print(f" → {a}³ + {b}³ = {a**3} + {b**3} = 1729") #  it should be print and the number is 1729 period at the end of the line removed 
+                                                        # it should be a**3 and b**3 not a**2 and b**2
   
